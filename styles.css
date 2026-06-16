@@ -14,11 +14,18 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   min-height: 100%;
-  font-family: Inter, 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top left, rgba(255, 209, 0, 0.08), transparent 30%), #0c0c0c;
+  font-family: Inter, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(255, 209, 0, 0.08),
+      transparent 30%
+    ),
+    #0c0c0c;
   color: var(--text);
   scroll-behavior: smooth;
 }
@@ -28,7 +35,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 800px;
   display: block;
 }
 
@@ -45,11 +52,10 @@ img {
   text-decoration: underline;
 }
 
-
 .compliance-banner {
   background: #ffffff;
   padding: 20px 24px;
-  border-bottom: 3px solid #FFD700;
+  border-bottom: 3px solid #ffd700;
 }
 
 .compliance-content {
@@ -89,8 +95,6 @@ img {
   display: block;
   margin: 0 auto;
 }
-
-
 
 .compliance-banner p {
   margin: 0;
@@ -132,8 +136,7 @@ img {
 }
 
 .brand-center img {
-  width: auto;
-  max-width: 320px;
+  max-width: 800px;
   max-height: 180px;
   height: auto;
   object-fit: contain;
@@ -211,7 +214,9 @@ h1 {
   padding: 16px 26px;
   border-radius: 999px;
   font-weight: 700;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .btn:hover {
@@ -341,7 +346,7 @@ h1 {
 .dolny-slask {
   display: block;
   padding: 8px 16px;
-  border: 2px solid #FFD700;
+  border: 2px solid #ffd700;
   border-radius: 8px;
   background: rgba(255, 209, 0, 0.05);
   color: var(--accent);
@@ -443,7 +448,7 @@ main {
 }
 
 .checklist li::before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   left: 0;
   top: 0;
@@ -481,7 +486,11 @@ main {
 }
 
 .page-header {
-  background: linear-gradient(180deg, rgba(20, 20, 20, 0.98), rgba(12, 12, 12, 0.96));
+  background: linear-gradient(
+    180deg,
+    rgba(20, 20, 20, 0.98),
+    rgba(12, 12, 12, 0.96)
+  );
   padding-bottom: 32px;
 }
 
@@ -522,7 +531,6 @@ main {
   display: block;
   border-radius: 12px;
 }
-
 
 @media (max-width: 900px) {
   .hero-content,
@@ -593,7 +601,7 @@ main {
 
   .brand-center img {
     width: auto;
-    max-width: 280px;
+    max-width: 400px;
     height: auto;
     object-fit: contain;
   }
