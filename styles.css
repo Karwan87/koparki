@@ -423,6 +423,48 @@ main {
   font-size: 1.25rem;
 }
 
+/* Better layout for compliance cards on larger screens */
+@media (min-width: 900px) {
+  .compliance-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .compliance-item {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px;
+  }
+
+  .compliance-item p {
+    margin-bottom: 12px;
+  }
+
+  .compliance-item p strong {
+    display: block;
+    color: var(--accent);
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+
+  .compliance-item .amount {
+    display: block;
+    white-space: nowrap;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-weight: 700;
+    color: var(--text);
+  }
+}
+
+@media (min-width: 1200px) {
+  .compliance-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .feature-grid article p,
 .info-cards article p,
 .contact-panel p,
