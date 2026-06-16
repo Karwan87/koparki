@@ -234,6 +234,8 @@ h1 {
 }
 
 .hero-image {
+  width: 95%;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
   border-radius: 32px;
@@ -242,6 +244,7 @@ h1 {
 }
 
 .hero-image img {
+  margin: 0 auto;
   width: 100%;
   height: auto;
   display: block;
