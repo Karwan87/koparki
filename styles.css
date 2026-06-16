@@ -137,7 +137,7 @@ img {
 
 .brand-center img {
   max-width: 800px;
-  max-height: 180px;
+  max-height: 300px;
   height: auto;
   object-fit: contain;
   display: block;
