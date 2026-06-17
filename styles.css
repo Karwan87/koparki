@@ -76,9 +76,10 @@ img {
 }
 
 .eu-flag-inline {
-  width: 90px;
   height: 60px;
+  width: auto;
   flex-shrink: 0;
+  object-fit: contain;
 }
 
 .compliance-badge {
@@ -636,8 +637,8 @@ main {
   }
 
   .eu-flag-inline {
-    width: 60px;
     height: 40px;
+    width: auto;
   }
 
   .logo-hero {
